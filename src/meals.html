@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Food</title>
+    <link rel="stylesheet" href="meals.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="meals.html">Foods</a>
+        <a href="destination.html">Destinations </a>
+      </div>
+    </header>
+    <center>
+      <h1>Search any Spanish meals</h1>
+      <div>
+        <label for="meal-input">Enter a meal name:</label>
+        <input type="text" id="meal-input" />
+        <button onclick="searchMeal()">Search</button>
+      </div>
+      <div id="meal-result"></div>
+    </center>
+    <section class="photo-cards">
+      <div class="card">
+        <img src="../pictures/meals/paella.jpg" alt="Paella" />
+        <div class="card-info">
+          <h2>Paella</h2>
+          <p>A traditional Spanish rice dish with seafood and/or meat.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../pictures/meals/tortilla.jpg" alt="Tortilla" />
+        <div class="card-info">
+          <h2>Tortilla</h2>
+          <p>A classic Spanish omelette with potatoes and onions.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../pictures/meals/Patatas bravas.jpg" alt="Patatas bravas" />
+        <div class="card-info">
+          <h2>Patatas bravas</h2>
+          <p>Crispy fried potatoes with a spicy tomato sauce.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../pictures/meals/gazpacho.webp" alt="Gazpacho" />
+        <div class="card-info">
+          <h2>Gazpacho</h2>
+          <p>
+            A refreshing cold soup made with tomatoes, peppers, and cucumber.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../pictures/meals/Churros.jpg" alt="Churros" />
+        <div class="card-info">
+          <h2>Churros</h2>
+          <p>A sweet fried dough pastry often served with hot chocolate.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../pictures/meals/Fideuà.jpg" alt="Fideuà" />
+        <div class="card-info">
+          <h2>Fideuà</h2>
+          <p>A noodle dish similar to paella, usually made with seafood.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../pictures/meals/Albondigas.jpg" alt="Albondigas" />
+        <div class="card-info">
+          <h2>Albondigas</h2>
+          <p>
+            Classic Mexican soup made with meatballs (albondigas), green beans,
+            onions, and chicken stock.
+          </p>
+        </div>
+      </div>
+    </section>
+    <script src="api.js"></script>
+  </body>
+  <div class="footer">
+
+</html>
